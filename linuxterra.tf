@@ -13,7 +13,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo "Cloning the Terraform repository..."
-                sh 'git clone https://github.com/HarshalST/terraform-linux /tmp/test1920'
+                sh 'git clone https://github.com/Sivaraman1980/CI-demo/blob/main/ /tmp/test1920'
             }
         }
         
